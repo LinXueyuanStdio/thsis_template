@@ -1,0 +1,85 @@
+\documentclass[sigconf]{acmart}
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
+
+\usepackage[UTF8]{ctex}
+\usepackage{booktabs} % For formal tables
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{dirtytalk}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{flushend} % 参考文献充实堆积
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+\lstset{frame=tb,
+	language=Python,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+
+\setcopyright{none}
+
+\acmConference[]{}{}{}
+\acmYear{2017}
+\copyrightyear{2017}
+
+\begin{document}
+\title{Chaucer's Art in The Wife of Bath’s Tale}
+
+\author{林学渊16343049}
+\affiliation{
+	\department{荔园11号418}
+	\institution{School of Mathematics (Zhuhai), Sun Yat-sen University}
+}
+
+\begin{abstract}
+In “The Wife of Bath’s Tale” written by Geoffrey Chaucer, “Tale of Florent” in “Confessio Amantis” written by Chaucer's contemporary, friend and poet, John Gower(1330-1408) and “The Wedding of Sir Gawain and the Dame Ragnell” believed to written by Sir Thomas Mallory, we see the similar tales that hold the same message. While the tales hold the same message their contents are very different. To discover why these changes were made by Chaucer we observe the works in depth. Also, we look at the origins of these stories, and how they inspired the changes. In the end, we draw a conclusion that the reason are literary characters, narratives, and what women desire.
+\end{abstract}
+
+\keywords{Narratives; Tales; Literary characters; Marriage; Weddings; Women Rights}
+
+\maketitle
+
+%\noindent {\bf Contents}
+%
+%\smallskip
+%\S\ref{Introduction}. Introduction
+%
+%\S\ref{tale}. The Wife of Bath's Tale
+%
+%\S\ref{prototype}. The Tale's Prototype
+%
+%\S\ref{Creative changes}. Creative changes
+%
+%\S\ref{Analysis}. Analysis
+%
+%\S\ref{Conclusion}. Conclusion
+%\medskip
+
+\input{body}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{reference}
+
+\end{document}

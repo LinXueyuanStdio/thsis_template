@@ -1,0 +1,111 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{7}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Aguirre}{Aguirre}{1993}]%
+        {aguirre1993riddle}
+\bibfield{author}{\bibinfo{person}{Manuel Aguirre}.}
+  \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{The Riddle of Sovereignty}.
+\newblock \bibinfo{journal}{{\em The Modern Language Review\/}}
+  (\bibinfo{year}{1993}), \bibinfo{pages}{273--282}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chaucer}{Chaucer}{2008}]%
+        {chaucer2008canterbury}
+\bibfield{author}{\bibinfo{person}{Geoffrey Chaucer}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em The canterbury tales}}.
+\newblock \bibinfo{publisher}{Broadview Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fisher}{Fisher}{1964}]%
+        {fisher1964john}
+\bibfield{author}{\bibinfo{person}{John~H Fisher}.}
+  \bibinfo{year}{1964}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em John Gower: Moral Philosopher and Friend of
+  Chaucer}}.
+\newblock \bibinfo{publisher}{New York University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gower}{Gower}{1980}]%
+        {gower1980confessio}
+\bibfield{author}{\bibinfo{person}{John Gower}.}
+  \bibinfo{year}{1980}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Confessio amantis}}.
+  Vol.~\bibinfo{volume}{9}.
+\newblock \bibinfo{publisher}{University of Toronto Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{of~Sir~Gawain, Ragnell, and
+  Sumner}{of~Sir~Gawain et~al\mbox{.}}{1924}]%
+        {wedding1924weddynge}
+\bibfield{author}{\bibinfo{person}{Wedding of Sir~Gawain},
+  \bibinfo{person}{Dame Ragnell}, {and} \bibinfo{person}{Laura Sumner}.}
+  \bibinfo{year}{1924}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em The Weddynge of Sir Gawen and Dame
+  Ragnell}}.
+\newblock \bibinfo{publisher}{Smith College}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Owst}{Owst}{1933}]%
+        {owst1933literature}
+\bibfield{author}{\bibinfo{person}{Gerald~Robert Owst}.}
+  \bibinfo{year}{1933}\natexlab{}.
+\newblock \showarticletitle{Literature and pulpit in medieval England}.
+\newblock  (\bibinfo{year}{1933}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Steinberg}{Steinberg}{1964}]%
+        {steinberg1964wife}
+\bibfield{author}{\bibinfo{person}{Aaron Steinberg}.}
+  \bibinfo{year}{1964}\natexlab{}.
+\newblock \showarticletitle{The Wife of Bath's Tale and Her Fantasy of
+  Fulfillment}.
+\newblock \bibinfo{journal}{{\em College English\/}} \bibinfo{volume}{26},
+  \bibinfo{number}{3} (\bibinfo{year}{1964}), \bibinfo{pages}{187--191}.
+\newblock
+
+
+\end{thebibliography}
